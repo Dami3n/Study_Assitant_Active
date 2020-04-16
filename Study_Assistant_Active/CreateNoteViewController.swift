@@ -20,13 +20,17 @@ class CreateNoteViewController: UIViewController {
     var selectedTemplate = "None"
     
     @IBAction func doneButton(_ sender: Any) {
-        var title = titleTextField.text
-        var subject = subjectTextField.text
+        var title = titleTextField.text!
+        var subject = subjectTextField.text!
         var template = selectedTemplate
-        var description = descriptionTextView.text
+        var description = descriptionTextView.text!
         
+        var note = Note(title: title, subject: subject, template: template, description: description, contentOne: "", contentTwo: "", contentThree: "")
         
-        
+        print(note.title)
+        print(note.subject)
+        print(note.template)
+        print(note.description)
     }
     
     
