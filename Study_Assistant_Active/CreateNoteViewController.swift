@@ -9,6 +9,9 @@
 import UIKit
 
 class CreateNoteViewController: UIViewController {
+    
+    var notes: [Array<Note>] = []
+    
     @IBOutlet weak var titleTextField: UITextField!
     
     @IBOutlet weak var subjectTextField: UITextField!
@@ -31,6 +34,13 @@ class CreateNoteViewController: UIViewController {
         print(note.subject)
         print(note.template)
         print(note.description)
+        
+        notes.append([note])
+        print("")
+        print("")
+        print("")
+        print(notes)
+        
     }
     
     
