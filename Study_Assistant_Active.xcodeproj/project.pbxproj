@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		DF05C861244844D4006949A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C860244844D4006949A3 /* AppDelegate.swift */; };
 		DF05C863244844D4006949A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C862244844D4006949A3 /* SceneDelegate.swift */; };
-		DF05C865244844D4006949A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C864244844D4006949A3 /* ViewController.swift */; };
 		DF05C868244844D4006949A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF05C866244844D4006949A3 /* Main.storyboard */; };
 		DF05C86B244844D4006949A3 /* Study_Assistant_Active.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF05C869244844D4006949A3 /* Study_Assistant_Active.xcdatamodeld */; };
 		DF05C86D244844D7006949A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF05C86C244844D7006949A3 /* Assets.xcassets */; };
 		DF05C870244844D7006949A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF05C86E244844D7006949A3 /* LaunchScreen.storyboard */; };
 		DF05C87B244844D8006949A3 /* Study_Assistant_ActiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C87A244844D8006949A3 /* Study_Assistant_ActiveTests.swift */; };
 		DF05C886244844D8006949A3 /* Study_Assistant_ActiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C885244844D8006949A3 /* Study_Assistant_ActiveUITests.swift */; };
+		DF05C8942448459B006949A3 /* CreateNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C8932448459B006949A3 /* CreateNoteViewController.swift */; };
+		DF05C896244845B1006949A3 /* TemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C895244845B1006949A3 /* TemplateViewController.swift */; };
+		DF05C89824485726006949A3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05C89724485726006949A3 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		DF05C85D244844D4006949A3 /* Study_Assistant_Active.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_Assistant_Active.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF05C860244844D4006949A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF05C862244844D4006949A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF05C864244844D4006949A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF05C867244844D4006949A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF05C86A244844D4006949A3 /* Study_Assistant_Active.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Study_Assistant_Active.xcdatamodel; sourceTree = "<group>"; };
 		DF05C86C244844D7006949A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		DF05C881244844D8006949A3 /* Study_Assistant_ActiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Study_Assistant_ActiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF05C885244844D8006949A3 /* Study_Assistant_ActiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_Assistant_ActiveUITests.swift; sourceTree = "<group>"; };
 		DF05C887244844D8006949A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF05C8932448459B006949A3 /* CreateNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteViewController.swift; sourceTree = "<group>"; };
+		DF05C895244845B1006949A3 /* TemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewController.swift; sourceTree = "<group>"; };
+		DF05C89724485726006949A3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				DF05C860244844D4006949A3 /* AppDelegate.swift */,
 				DF05C862244844D4006949A3 /* SceneDelegate.swift */,
-				DF05C864244844D4006949A3 /* ViewController.swift */,
 				DF05C866244844D4006949A3 /* Main.storyboard */,
+				DF05C8932448459B006949A3 /* CreateNoteViewController.swift */,
+				DF05C895244845B1006949A3 /* TemplateViewController.swift */,
 				DF05C86C244844D7006949A3 /* Assets.xcassets */,
 				DF05C86E244844D7006949A3 /* LaunchScreen.storyboard */,
 				DF05C871244844D7006949A3 /* Info.plist */,
 				DF05C869244844D4006949A3 /* Study_Assistant_Active.xcdatamodeld */,
+				DF05C89724485726006949A3 /* Note.swift */,
 			);
 			path = Study_Assistant_Active;
 			sourceTree = "<group>";
@@ -263,9 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF05C86B244844D4006949A3 /* Study_Assistant_Active.xcdatamodeld in Sources */,
-				DF05C865244844D4006949A3 /* ViewController.swift in Sources */,
+				DF05C896244845B1006949A3 /* TemplateViewController.swift in Sources */,
 				DF05C861244844D4006949A3 /* AppDelegate.swift in Sources */,
+				DF05C8942448459B006949A3 /* CreateNoteViewController.swift in Sources */,
 				DF05C863244844D4006949A3 /* SceneDelegate.swift in Sources */,
+				DF05C89824485726006949A3 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
